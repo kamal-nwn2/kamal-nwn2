@@ -1,0 +1,22 @@
+Fixes in this folder affect the Storm of Zehir campaign specifically, for instance scripts and dialogs.
+
+MANIFEST
+--------
+
+Caravan Fixes by kevL's
+v.160823
+Fixes a couple of caravans.
+files:
+- F_X2
+wp_2_to_14.nss
+wp_2_to_14.ncs
+wp_3_to_7.nss [created]
+wp_3_to_7.ncs [created]
+
+Prototype declaration fix by Pain of Dungeon Eternal
+v.160824 (implemented by kevL's)
+Change return of ProcessCompanyIncome() from int to void.
+files:
+- Campaign
+kinc_trade_system.nss
+
